@@ -4,7 +4,7 @@ const path=require('path')
 const mongoose = require('mongoose');
 const port=3000;
 
-mongoose.connect('mongodb://127.0.0.1:27017/portfolio');
+mongoose.connect('mongodb+srv://singlagoutam12:8bMbsUOGWw0eXlGo@cluster0.br2oaia.mongodb.net/goutam?retryWrites=true&w=majority&appName=Cluster0');
 var clientSchema = new mongoose.Schema({
     name: String,
     emailid: String,
